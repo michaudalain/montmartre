@@ -94,6 +94,10 @@ body {
     background-position-y: 70%;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* -----------HEADER----------------------*/
 header {
     position: sticky;
@@ -125,11 +129,6 @@ header {
     margin-bottom: 10px;
 }
 
-.brand-xl-color-quartier {
-    color: #ae2012;
-    text-shadow: 5px 5px 10px white;
-}
-
 .brand-xl::before {
     content: "";
     width: 30%;
@@ -151,7 +150,6 @@ header {
 }
 
 /*-------BOOKING---------------*/
-
 .container-booking {
     width:600px;
     height: 140px;
@@ -163,6 +161,7 @@ header {
     color:#384454;
     z-index: 1;
     box-shadow: #384454 0px 0px 20px;
+    border-radius: 20px;
 }
 
 .container-booking p {
@@ -175,7 +174,7 @@ header {
     height: 40px;
     color: rgb(60, 60, 60);
     font-weight: 700;
-    background: #dcdcdc;
+    background: whitesmoke;
     border: 2px solid rgb(204, 204, 204);
     outline: none;
     border-radius: 20px;
@@ -205,18 +204,6 @@ header {
     margin-bottom: 8px;
 }
 
-.flex-container-col {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-end {
-    align-items: flex-end;
-}
-
-.container-booking input[type=submit]:hover {
-    cursor: pointer;
-}
 /*-----------MAIN------------------------*/
 .content {
     margin-top: 650px;
@@ -238,39 +225,14 @@ header {
     padding: 0;
 }
 
-.container-main {
-    width: 100%;
-    height: auto;
-    background: white;
-}
-
 .flex-container {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
 }
 
-.flex-container-full-width {
+.flex-container-col {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-}
-
-.flex-galery-50 {
-    display: flex;
-    justify-content: start;
-}
-
-.flex-galery-50 img {
-    max-width: 50%;
-    height: auto;
-}
-
-.img-small-flex-container {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 50%;
-    margin-bottom: 40px;
 }
 
 .flexbox-left-66 {
@@ -282,14 +244,9 @@ header {
     align-items: flex-end;
 }
 
-.img-small-flex-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 40px;
-}
-
-.img-borders {
-    max-width: 100%;
+.img-width-auto {
+    height: 100%;
+    width: auto;
 }
 
 /*-------------NAV---------------*/
@@ -533,15 +490,6 @@ aside h2 {
     display: flex;
 }
 
-.img-max-50 {
-    max-width: 50%;
-    height: auto;
-}
-
-.flex-item-50 {
-    max-width: 50%;
-}
-
 .img-scale-anim {
     transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -616,10 +564,6 @@ article p {
     width: 50%;
 }
 
-.width-40 {
-    width: 30%;
-}
-
 .form-align {
     justify-content: space-between;
     align-items: flex-start;
@@ -668,10 +612,6 @@ article p {
     cursor: pointer;
 }
 
-.space-betwwen {
-    justify-content: space-between;
-}
-
 .tarif-nuitee {
     font-size: 20px;
     font-weight: 700;
@@ -686,6 +626,7 @@ article p {
     padding: 20px;
     max-width: 750px;
     text-align: right;
+    border-radius: 20px;
 }
 
 .box-special-offer h2 {
@@ -784,10 +725,9 @@ article p {
 }
 
 /******SLIDER*********/
-.slider-text {
+ .slider-text {
     width: 40%;
     width: 80%;
-    
 }
 
 .slider-text p {
@@ -795,38 +735,34 @@ article p {
     margin-left: 8px;
 }
 
-
-
-img {
-    max-width: 100%;
-}
-
 .slider-container {
     width: 100%;
-    height: auto;
     position: relative;
     margin: auto;
-    height: 450px;
+    height: 400px;
     overflow: hidden;
 }
 
 .slider-menu {
     position: absolute;
     left: 0;
-    z-index: 11;
+    z-index: 50;
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
     text-align: center;
 }
 
 .slider-menu label {
     cursor: pointer;
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #384454;
-    border-radius: 50px;
+    width: 12px;
+    height: 12px;
+    box-shadow: 0 0 20px 0 #384454;
+    border-radius: 10px;
     margin: 0 0.2em 1em;
+    border: solid 3px white;
+    background-color: transparent;
+    transition-duration: .4s;
 }
 
 .slider-menu label:hover,.slider-menu label:focus {
@@ -851,3 +787,8 @@ img {
     z-index: 15;
     transition: left 0.65s ease-out;
 }
+
+
+
+
+
