@@ -5,8 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/anim.css">
-        <link rel="stylesheet" href="style/flexgallery.css">
         <link rel="shortcut icon" href="img/logo_cm.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/16875f3306.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
@@ -15,7 +13,7 @@
     </head>
     <body>
         <header>
-            <nav id="navbar" class="navbar-home">
+            <nav id="navbar" class="navbar-home navbar-transparent">
                 <div class="container">
                     <div class="flex-nav-right-left">
                         <div class="flex-nav-left">
@@ -106,12 +104,12 @@
                             </a>
                         </div>
                         <div class="flex-container">
-                            <div>
+                            <div class="img-left">
                                 <a href="#" data-fancybox="gallerie" data-src="img/sacre-coeur.jpg" data-caption="Le sacre coeur">
                                     <img class="img-scale-anim" src="img/sacre-coeur.jpg" alt="Le sacre coeur">
                                 </a>
                             </div>
-                            <div>
+                            <div class="img-right">
                                 <a href="#" data-fancybox="gallerie" data-src="img/montmarte-paris.jpg" data-caption="Rue pavée">
                                     <img class="img-scale-anim" src="img/montmarte-paris.jpg" alt="Rue pavée">
                                 </a>
@@ -197,10 +195,12 @@
         <script>
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
-            if (document.documentElement.scrollTop > 200) {
-                document.getElementById("navbar").style.background = "#384454";
+            if (document.documentElement.scrollTop > 300) {
+                document.getElementById("navbar").classList.remove("navbar-transparent")
+                document.getElementById("navbar").classList.add("navbar-opaque");
             } else {
-                document.getElementById("navbar").style.background = "#38445480";
+                document.getElementById("navbar").classList.remove("navbar-opaque");
+                document.getElementById("navbar").classList.add("navbar-transparent");
             }
         }
         </script>

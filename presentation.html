@@ -5,8 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/anim.css">
-        <link rel="stylesheet" href="style/flexgallery.css">
         <link rel="shortcut icon" href="img/logo_cm.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/16875f3306.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
@@ -15,7 +13,7 @@
     </head>
     <body>
         <header>
-            <nav id="navbar" class="navbar-pages">
+            <nav id="navbar" class="navbar-pages navbar-transparent">
                 <div class="container">
                     <div class="flex-nav-right-left">
                         <div class="flex-nav-left">
@@ -78,12 +76,12 @@
                 <h1>Terrasse avec vue imprenable</h1>
                 <main class="flex-container-col">
                     <div class="flex-galery-container">
-                        <div class="flex-container-one">
+                        <div class="flex-container-wd60">
                             <a href="#" data-fancybox="gallerie" data-src="img/terrasse.webp" data-caption="La terrasse">
                                 <img class="img-max-100 img-scale-anim" src="img/terrasse.webp" alt="Vue sur les toits de Paris">
                             </a>
                         </div>
-                        <div class="flex-container-two">
+                        <div class="flex-container-col-wd20">
                             <a href="#" data-fancybox="gallerie" data-src="img/Interieur-1.webp" data-caption="Le coin repas">
                                 <img class="img-max-100 img-scale-anim" src="img/Interieur-1.webp" alt="Coin repas">
                             </a>
@@ -94,7 +92,7 @@
                                 <img class="img-max-100 img-scale-anim" src="img/sejour2.webp" alt="Le séjour">
                             </a>
                         </div>
-                        <div class="flex-container-two">
+                        <div class="flex-container-col-wd20">
                             <a href="#" data-fancybox="gallerie" data-src="img/sejour.webp" data-caption="Le séjour">
                                 <img class="img-max-100 img-scale-anim" src="img/sejour.webp" alt="Le séjour">
                             </a>
@@ -175,10 +173,12 @@
         <script>
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
-            if (document.documentElement.scrollTop > 200) {
-                document.getElementById("navbar").style.background = "#384454";
+            if (document.documentElement.scrollTop > 300) {
+                document.getElementById("navbar").classList.remove("navbar-transparent")
+                document.getElementById("navbar").classList.add("navbar-opaque");
             } else {
-                document.getElementById("navbar").style.background = "#38445480";
+                document.getElementById("navbar").classList.remove("navbar-opaque");
+                document.getElementById("navbar").classList.add("navbar-transparent");
             }
         }
         </script>

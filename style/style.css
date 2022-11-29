@@ -96,8 +96,12 @@ body {
 
 img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
+iframe {
+    border-radius: 16px;
+}
 /* -----------HEADER----------------------*/
 header {
     position: sticky;
@@ -132,7 +136,7 @@ header {
 .brand-xl::before {
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #ae2012;
     left: 35%;
     top: 0%;
@@ -142,7 +146,7 @@ header {
 .brand-xl::after {
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #ae2012;
     left: 35%;
     bottom: 0%;
@@ -161,7 +165,7 @@ header {
     color:#384454;
     z-index: 1;
     box-shadow: #384454 0px 0px 20px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .container-booking p {
@@ -169,7 +173,7 @@ header {
     font-size: 18px;
     font-weight: 700;
 }
-.container-booking input, .container-booking button {
+.container-booking input {
     width: 160px;
     height: 40px;
     color: rgb(60, 60, 60);
@@ -204,6 +208,9 @@ header {
     margin-bottom: 8px;
 }
 
+.container-booking a:hover {
+    box-shadow: 0 0 16px #384454;
+}
 /*-----------MAIN------------------------*/
 .content {
     margin-top: 650px;
@@ -230,6 +237,14 @@ header {
     justify-content: flex-start;
 }
 
+.img-left {
+    padding: 8px 8px 0 0;
+}
+
+.img-right {
+    padding: 8px 0 0 0;
+}
+
 .flex-container-col {
     display: flex;
     flex-direction: column;
@@ -252,9 +267,16 @@ header {
 /*-------------NAV---------------*/
 #navbar {
     overflow: hidden;
-    background-color: #38445480;
     display: flex;
     z-index: 2;
+}
+
+.navbar-transparent{
+    background: linear-gradient(#384454, #3844544f);
+}
+
+.navbar-opaque {
+    background-color: #384454;
 }
 
 .navbar-home {
@@ -360,6 +382,29 @@ header {
     cursor: pointer;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 8px;
+    left: 0;
+    background-color: #ae2012;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(0.8);
+    transform-origin: bottom left;
+}
+
 /*--------FOOTER ------------------------------*/
 footer {
     width: 100%;
@@ -436,6 +481,7 @@ aside h2 {
     text-align: center;
     margin-bottom: 12px;
     padding: 8px;
+    border-radius: 16px;
 }
 
 .banner-pub {
@@ -446,7 +492,7 @@ aside h2 {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
-    border-radius: 0 40px 0px 40px;
+    border-radius: 16px;
     padding: 16px;
     box-shadow: 0 0 32px #384454;
 }
@@ -454,7 +500,7 @@ aside h2 {
 @keyframes slidein {
     from {
         margin-right: 100%;
-        width: 70%
+        width: 80%
     }
     to {
         margin-right: 0%;
@@ -466,18 +512,18 @@ aside h2 {
 .flex-galery-container{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     background: white;
     padding: 10px;
+    border-radius: 16px;
 }
 
-.flex-container-one {
+.flex-container-wd60 {
     display: flex;
     width: 60%;
 }
 
-.flex-container-two {
+.flex-container-col-wd20 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -517,11 +563,15 @@ aside h2 {
 }
 
 /**************QUARTIER**************/
-
 article {
     display: flex;
     margin-top: 40px;
     background: white;
+    border-radius: 16px;
+}
+
+.space-betwwen {
+    justify-content: space-between;
 }
 
 article a {
@@ -536,6 +586,10 @@ article a {
     text-align: center;
     align-self: flex-end;
     margin: 0 8px 8px 0;
+}
+
+article a:hover {
+    box-shadow: 0 0 16px #384454;
 }
 
 article img {
@@ -578,7 +632,8 @@ article p {
 .contact-form input, textarea {
     height: 40px;
     color: rgb(60, 60, 60);
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 16px;
     background: whitesmoke;
     border: 2px solid rgb(204, 204, 204);
     outline: none;
@@ -626,7 +681,7 @@ article p {
     padding: 20px;
     max-width: 750px;
     text-align: right;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .box-special-offer h2 {
@@ -648,6 +703,10 @@ article p {
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
+}
+
+.box-special-offer a:hover {
+    box-shadow: 0 0 16px #384454;
 }
 
 .title-special-offer {
@@ -726,7 +785,6 @@ article p {
 
 /******SLIDER*********/
  .slider-text {
-    width: 40%;
     width: 80%;
 }
 
@@ -737,10 +795,10 @@ article p {
 
 .slider-container {
     width: 100%;
-    position: relative;
-    margin: auto;
     height: 400px;
+    position: relative;
     overflow: hidden;
+    border-radius: 16px;
 }
 
 .slider-menu {
@@ -782,7 +840,7 @@ article p {
     transition: left 0.5s 0.75s;
 }
 
-[id^="slide"]:checked + .slide-img {
+[id^="slide-dot"]:checked + .slide-img {
     left: 0;
     z-index: 15;
     transition: left 0.65s ease-out;

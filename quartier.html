@@ -5,15 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/anim.css">
-        <link rel="stylesheet" href="style/flexgallery.css">
         <link rel="shortcut icon" href="img/logo_cm.png" type="image/x-icon">
         <script src="https://kit.fontawesome.com/16875f3306.js" crossorigin="anonymous"></script>
         <title>Le quartier</title>
     </head>
     <body class="body-quartier">
         <header>
-            <nav id="navbar" class="navbar-pages">
+            <nav id="navbar" class="navbar-pages navbar-transparent">
                 <div class="container">
                     <div class="flex-nav-right-left">
                         <div class="flex-nav-left">
@@ -74,11 +72,11 @@
         <div class="content-half-header">      
             <div class="container">
                 <h1>Le Quartier</h1>
-                <main class="flex-container-full-width">
+                <main class="flex-container-col">
                     <div class="flex-container">
                         <div class="main-description slider-text">
                             <p >
-                                Ah, Montmartre… L’un des quartiers les plus mythiques de notre chère capitale. Partez sur les traces d’Amélie Poulain, mais aussi du vieux Montmartre des artistes, et ne passez surtout pas à côté des passages cachés loin des touristes…On démarre la balade à la sortie du métro Abbesses. Inaugurée en 1913 sur la ligne 12, cette station est reconnaissable à son grand édicule Guimard de couleur verte. Prenez la rue du même nom depuis la place des Abbesses pour commencer la visite…
+                                Ah, Montmartre… L’un des quartiers les plus mythiques de notre chère capitale. Partez sur les traces d’Amélie Poulain, mais aussi du vieux Montmartre des artistes, et ne passez surtout pas à côté des passages cachés loin des touristes…On démarre la balade à la sortie du <strong>métro Abbesses</strong>. Inaugurée en 1913 sur la <strong>ligne 12</strong>, cette station est reconnaissable à son grand édicule Guimard de couleur verte. Prenez la rue du même nom depuis la place des Abbesses pour commencer la visite…
                             </p>                 
                         </div>
                         <div class="slider-container img-scale-anim">
@@ -231,10 +229,12 @@
         <script>
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
-            if (document.documentElement.scrollTop > 200) {
-                document.getElementById("navbar").style.background = "#384454";
+            if (document.documentElement.scrollTop > 300) {
+                document.getElementById("navbar").classList.remove("navbar-transparent")
+                document.getElementById("navbar").classList.add("navbar-opaque");
             } else {
-                document.getElementById("navbar").style.background = "#38445480";
+                document.getElementById("navbar").classList.remove("navbar-opaque");
+                document.getElementById("navbar").classList.add("navbar-transparent");
             }
         }
         </script>
