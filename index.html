@@ -118,44 +118,60 @@
                         <p>
                             Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Adipiscing elit pellentesque habitant morbi tristique senectus. Vitae auctor eu augue ut lectus arcu bibendum at varius. Nisi lacus sed viverra tellus in. Vestibulum lectus mauris ultrices eros in cursus turpis. Suspendisse potenti nullam ac tortor vitae purus. Neque laoreet suspendisse interdum consectetur libero id. Lorem dolor sed viverra ipsum nunc aliquet. Suscipit tellus mauris a diam maecenas sed enim ut. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Ultricies integer quis auctor elit.
                         </p>
-                        <div class="slider-container img-scale-anim">
-                            <div class="slider-menu">
-                              <label for="slide-dot-1"></label>
-                              <label for="slide-dot-2"></label>
-                              <label for="slide-dot-3"></label>
-                              <label for="slide-dot-4"></label>
-                              <label for="slide-dot-5"></label>
-                              <label for="slide-dot-6"></label>
-                              <label for="slide-dot-7"></label>
-                              <label for="slide-dot-8"></label>
-                              <label for="slide-dot-9"></label>
+                        <div class="slider-container">
+                            <div class="custom-slider fade">
+                                <div class="slide-index">1 / 8</div>
+                                <img class="slide-img" src="img/montmarte-paris.jpg" alt="Montmartre">
+                                <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                             </div>
-                            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                            <img class="slide-img" src="img/montmarte-paris.jpg" alt="Montmartre">
-                      
-                            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
-                            <img class="slide-img" src="img/Place-artistes.jpg" alt="Place du tertre">
-                            
-                            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
-                            <img class="slide-img" src="img/maison-rose-montmartre-zigzag-paris-scaled.webp" alt="Maison rose">
-
-                            <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
-                            <img class="slide-img" src="img/sacre-coeur.jpg" alt="Sacre coeur">
-
-                            <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
-                            <img class="slide-img" src="img/hd-wallpaper-7188619_1920.jpg" alt="Rue pavée">
-
-                            <input class="slide-input" id="slide-dot-6" type="radio" name="slides">
-                            <img class="slide-img" src="img/cabaret-4613374_1920.jpg" alt="Cabaret">
-
-                            <input class="slide-input" id="slide-dot-7" type="radio" name="slides">
-                            <img class="slide-img" src="img/le-paris-de-dalida-moulin-de-la-galette-paris-zigzag-e1519407796306.webp">
-
-                            <input class="slide-input" id="slide-dot-8" type="radio" name="slides">
-                            <img class="slide-img" src="img/moulin-rouge-392147_1920.jpg" alt="Moulin rouge">
-
-                            <input class="slide-input" id="slide-dot-9" type="radio" name="slides">
-                            <img class="slide-img" src="img/visite-questo-montmartre-ceetiz-1 (1).jpg" alt="Maison">
+                            <div class="custom-slider fade">
+                                <div class="slide-index">2 / 8</div>
+                                <img class="slide-img" src="img/Place-artistes.jpg" alt="Place du tertre">
+                                <div class="slide-text">Place du Tertre</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">3 / 8</div>
+                                <img class="slide-img" src="img/sacre-coeur.jpg" alt="Le sacré-coeur">
+                                <div class="slide-text">Le Sacré-Coeur</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">4 / 8</div>
+                                <img class="slide-img" src="img/hd-wallpaper-7188619_1920.jpg" alt="Rue pavée">
+                                <div class="slide-text">Rue pavée</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">5 /8</div>
+                                <img class="slide-img" src="img/cabaret-4613374_1920.jpg" alt="Cabaret">
+                                <div class="slide-text">Cabaret</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">6 / 8</div>
+                                <img class="slide-img" src="img/le-paris-de-dalida-moulin-de-la-galette-paris-zigzag-e1519407796306.webp" alt="Le moulin de la galette">
+                                <div class="slide-text">Le moulin de la galette</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">7 / 8</div>
+                                <img class="slide-img" src="img/moulin-rouge-392147_1920.jpg" alt="Le moulin de la galette">
+                                <div class="slide-text">Le moulin rouge</div>
+                            </div>
+                            <div class="custom-slider fade">
+                                <div class="slide-index">8 / 8</div>
+                                <img class="slide-img" src="img/visite-questo-montmartre-ceetiz-1 (1).jpg" alt="Maison typique du quartier">
+                                <div class="slide-text">Maison typique du quartier</div>
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)" title="Image précédente">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)" title="Image suivante">&#10095;</a>
+                        </div>
+                        <br>
+                        <div class="slide-dot">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
+                            <span class="dot" onclick="currentSlide(5)"></span> 
+                            <span class="dot" onclick="currentSlide(6)"></span> 
+                            <span class="dot" onclick="currentSlide(7)"></span> 
+                            <span class="dot" onclick="currentSlide(8)"></span> 
                         </div>
                         <p>
                             Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Adipiscing elit pellentesque habitant morbi tristique senectus. Vitae auctor eu augue ut lectus arcu bibendum at varius. Nisi lacus sed viverra tellus in. Vestibulum lectus mauris ultrices eros in cursus turpis. Suspendisse potenti nullam ac tortor vitae purus. Neque laoreet suspendisse interdum consectetur libero id. Lorem dolor sed viverra ipsum nunc aliquet. Suscipit tellus mauris a diam maecenas sed enim ut. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Ultricies integer quis auctor elit.
@@ -237,6 +253,33 @@
                 document.getElementById("navbar").classList.remove("navbar-opaque");
                 document.getElementById("navbar").classList.add("navbar-transparent");
             }
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("custom-slider");
+            const dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
         }
         </script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
