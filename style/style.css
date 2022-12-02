@@ -96,8 +96,12 @@ body {
 
 img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
+iframe {
+    border-radius: 16px;
+}
 /* -----------HEADER----------------------*/
 header {
     position: sticky;
@@ -132,7 +136,7 @@ header {
 .brand-xl::before {
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #ae2012;
     left: 35%;
     top: 0%;
@@ -142,7 +146,7 @@ header {
 .brand-xl::after {
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #ae2012;
     left: 35%;
     bottom: 0%;
@@ -161,7 +165,7 @@ header {
     color:#384454;
     z-index: 1;
     box-shadow: #384454 0px 0px 20px;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .container-booking p {
@@ -169,7 +173,7 @@ header {
     font-size: 18px;
     font-weight: 700;
 }
-.container-booking input, .container-booking button {
+.container-booking input {
     width: 160px;
     height: 40px;
     color: rgb(60, 60, 60);
@@ -204,6 +208,9 @@ header {
     margin-bottom: 8px;
 }
 
+.container-booking a:hover {
+    box-shadow: 0 0 16px #384454;
+}
 /*-----------MAIN------------------------*/
 .content {
     margin-top: 650px;
@@ -230,6 +237,14 @@ header {
     justify-content: flex-start;
 }
 
+.img-left {
+    padding: 8px 8px 0 0;
+}
+
+.img-right {
+    padding: 8px 0 0 0;
+}
+
 .flex-container-col {
     display: flex;
     flex-direction: column;
@@ -252,9 +267,16 @@ header {
 /*-------------NAV---------------*/
 #navbar {
     overflow: hidden;
-    background-color: #38445480;
     display: flex;
     z-index: 2;
+}
+
+.navbar-transparent{
+    background: linear-gradient(#384454, #3844544f);
+}
+
+.navbar-opaque {
+    background-color: #384454;
 }
 
 .navbar-home {
@@ -360,6 +382,29 @@ header {
     cursor: pointer;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 8px;
+    left: 0;
+    background-color: #ae2012;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(0.8);
+    transform-origin: bottom left;
+}
+
 /*--------FOOTER ------------------------------*/
 footer {
     width: 100%;
@@ -436,6 +481,7 @@ aside h2 {
     text-align: center;
     margin-bottom: 12px;
     padding: 8px;
+    border-radius: 16px;
 }
 
 .banner-pub {
@@ -446,7 +492,7 @@ aside h2 {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
-    border-radius: 0 40px 0px 40px;
+    border-radius: 16px;
     padding: 16px;
     box-shadow: 0 0 32px #384454;
 }
@@ -454,7 +500,7 @@ aside h2 {
 @keyframes slidein {
     from {
         margin-right: 100%;
-        width: 70%
+        width: 80%
     }
     to {
         margin-right: 0%;
@@ -466,18 +512,15 @@ aside h2 {
 .flex-galery-container{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    background: white;
-    padding: 10px;
 }
 
-.flex-container-one {
+.flex-container-wd60 {
     display: flex;
     width: 60%;
 }
 
-.flex-container-two {
+.flex-container-col-wd20 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -517,11 +560,23 @@ aside h2 {
 }
 
 /**************QUARTIER**************/
+.box_80 {
+    width: 80%;
+}
+
+.box_80 p {
+    margin: 0 8px 0 8px;
+}
 
 article {
     display: flex;
     margin-top: 40px;
     background: white;
+    border-radius: 16px;
+}
+
+.space-betwwen {
+    justify-content: space-between;
 }
 
 article a {
@@ -536,6 +591,10 @@ article a {
     text-align: center;
     align-self: flex-end;
     margin: 0 8px 8px 0;
+}
+
+article a:hover {
+    box-shadow: 0 0 16px #384454;
 }
 
 article img {
@@ -578,7 +637,8 @@ article p {
 .contact-form input, textarea {
     height: 40px;
     color: rgb(60, 60, 60);
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 16px;
     background: whitesmoke;
     border: 2px solid rgb(204, 204, 204);
     outline: none;
@@ -626,7 +686,7 @@ article p {
     padding: 20px;
     max-width: 750px;
     text-align: right;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .box-special-offer h2 {
@@ -648,6 +708,10 @@ article p {
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
+}
+
+.box-special-offer a:hover {
+    box-shadow: 0 0 16px #384454;
 }
 
 .title-special-offer {
@@ -725,67 +789,101 @@ article p {
 }
 
 /******SLIDER*********/
- .slider-text {
-    width: 40%;
-    width: 80%;
-}
-
-.slider-text p {
-    margin-top: 0;
-    margin-left: 8px;
+.custom-slider { 
+    display: none; 
 }
 
 .slider-container {
     width: 100%;
+    height: 450px;
     position: relative;
     margin: auto;
-    height: 400px;
     overflow: hidden;
+    border-radius: 8px;
 }
 
-.slider-menu {
-    position: absolute;
-    left: 0;
-    z-index: 50;
-    width: 100%;
-    bottom: 5px;
-    text-align: center;
-}
-
-.slider-menu label {
+.prev, .next {
     cursor: pointer;
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    box-shadow: 0 0 20px 0 #384454;
-    border-radius: 10px;
-    margin: 0 0.2em 1em;
-    border: solid 3px white;
-    background-color: transparent;
-    transition-duration: .4s;
+    position: absolute;        
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    transition: background-color 0.6s ease;
+}
+.prev{ 
+    left: 18px; 
+    text-shadow: 1px 1px 3px #384454;
 }
 
-.slider-menu label:hover,.slider-menu label:focus {
-    background: #ae2012;
+.next { 
+    right: 18px; 
+    text-shadow: 1px 1px 3px #384454;
 }
 
-.slide-input{
-    opacity: 0;
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
 }
 
-.slide-img {
+.slide-text {
+    position: absolute;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    bottom: 15px;
     width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 3px #384454;
+}
+ 
+.slide-index {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 15px;
     position: absolute;
     top: 0;
-    left: 100%;
-    z-index: 10;
-    transition: left 0.5s 0.75s;
+    text-shadow: 2px 2px 3px #384454;
 }
 
-[id^="slide"]:checked + .slide-img {
-    left: 0;
-    z-index: 15;
+.slide-img{ 
+    width: 100%; 
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide-dot{ text-align: center; }
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #38445480;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover { 
+    background-color: #ae2012; 
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
     transition: left 0.65s ease-out;
+}
+
+@keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
 }
 
 
