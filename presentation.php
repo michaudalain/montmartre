@@ -9,50 +9,50 @@ require_once "header.php";
 <main>
     <div class="content-half-header">      
         <div class="container">
-            <h1>Terrasse avec vue imprenable</h1>
+            <h1>Appartement lumineux au coeur de Montmartre</h1>
             <div class="flex-container-col">
                 <div class="flex-galery-container">
                     <div class="flex-container-wd60">
-                        <a href="#" data-fancybox="gallerie" data-src="img/terrasse.webp" data-caption="La terrasse">
-                            <img class="img-max-100 img-scale-anim" src="img/terrasse.webp" alt="Vue sur les toits de Paris">
+                        <a href="#" data-fancybox="gallerie" data-src="img/appart_2.jpg" data-caption="Le séjour">
+                            <img class="img-max-100 img-scale-anim" src="img/appart_2.jpg" alt="Le séjour">
                         </a>
                     </div>
                     <div class="flex-container-col-wd20">
-                        <a href="#" data-fancybox="gallerie" data-src="img/Interieur-1.webp" data-caption="Le coin repas">
-                            <img class="img-max-100 img-scale-anim" src="img/Interieur-1.webp" alt="Coin repas">
+                        <a href="#" data-fancybox="gallerie" data-src="img/salle-de_bain.jpg" data-caption="La salle de bains">
+                            <img class="img-max-100 img-scale-anim" src="img/salle-de_bain.jpg" alt="la salle de bains">
                         </a>
-                        <a href="#" data-fancybox="gallerie" data-src="img/Interieur-2.webp" data-caption="La chambre">
-                            <img class="img-max-100 img-scale-anim" src="img/Interieur-2.webp" alt="Chambre">
+                        <a href="#" data-fancybox="gallerie" data-src="img/chambre.jpg" data-caption="La chambre">
+                            <img class="img-max-100 img-scale-anim" src="img/chambre.jpg" alt="Chambre">
                         </a>
-                        <a href="#" data-fancybox="gallerie" data-src="img/sejour2.webp" data-caption="Le séjour">
-                            <img class="img-max-100 img-scale-anim" src="img/sejour2.webp" alt="Le séjour">
+                        <a href="#" data-fancybox="gallerie" data-src="img/appart_1.jpg" data-caption="La deuxième chambre">
+                            <img class="img-max-100 img-scale-anim" src="img/appart_1.jpg" alt="La deuxième chambre">
                         </a>
                     </div>
                     <div class="flex-container-col-wd20">
-                        <a href="#" data-fancybox="gallerie" data-src="img/sejour.webp" data-caption="Le séjour">
-                            <img class="img-max-100 img-scale-anim" src="img/sejour.webp" alt="Le séjour">
+                        <a href="#" data-fancybox="gallerie" data-src="img/vue_paris.jpg" data-caption="Le quartier">
+                            <img class="img-max-100 img-scale-anim" src="img/vue_paris.jpg" alt="Le quartier">
                         </a>
-                        <a href="#" data-fancybox="gallerie" data-src="img/Vue toits.webp" data-caption="Vue sur les toits de Paris">
-                            <img class="img-max-100 img-scale-anim" src="img/Vue toits.webp" alt="Vue sur les toits de Paris">
+                        <a href="#" data-fancybox="gallerie" data-src="img/cuisine.jpg" data-caption="la cuisine">
+                            <img class="img-max-100 img-scale-anim" src="img/cuisine.jpg" alt="La cuisine">
                         </a>
-                        <a href="#" data-fancybox="gallerie" data-src="img/cuisine.webp" data-caption="Vue sur les toits de Paris">
-                            <img class="img-max-100 img-scale-anim" src="img/cuisine.webp" alt="La cuisine">
+                        <a href="#" data-fancybox="gallerie" data-src="img/coin_repas.jpg" data-caption="Le coin repas">
+                            <img class="img-max-100 img-scale-anim" src="img/coin_repas.jpg" alt="Le coin reaps">
                         </a>
                     </div>
                 </div>
                 <div class="block-separator">
-                    <h2>Le logement</h2>
+                    <h2>L'appartement</h2>
                     <p class="main-description">
-                        Petit appartement baigné de lumière,confortable et chaleureux,au 7ème et dernier étage avec un ascenseur,exposé plein sud,donnant sur une jolie terrasse qui domine tout Paris où vous pourrez prendre vos repas et vous détendre en admirant la ville et ses plus beaux monuments à toute heure du jour et de la nuit.
+                        Eos molestias praesentium nam omnis labore ab accusamus animi et officia aspernatur quo temporibus incidunt hic aspernatur labore. Est velit velit et asperiores facilis ut accusamus deleniti sit beatae fuga. Est tenetur nobis sit explicabo omnis ab quibusdam voluptatibus et sunt optio aut perferendis nesciunt At ducimus perferendis in rerum rerum.
                     </p>
                     <p>
-                        Situé juste au pied du <strong>Sacré Coeur</strong> et du funiculasre qui permet de monter au sommet de la butte Montmartre,dans une petite rue au calme à l'écart de l'agitation touristique,cet appartement de charme est idéalement situé pour un séjour ou vous pourrez à la fois :- profiter, à 5 minutes à pied, de nombreux commerces et d'une vie de quartier riche et animée- et rejoindre rapidement et très facilement, grâce aux trois stations de <strong>métro Anvers (ligne 2), Abbesses (ligne 12) et Barbes-Rochechouart (ligne 4)</strong>, le centre de Paris, les gares et la plupart des lieux que vous aurez à visiter durant votre séjour.
+                        Et inventore incidunt <strong>Sacré Coeur</strong>et provident consequatur et nisi recusandae in eveniet eius? Et dolorem debitis aut provident quae quo neque veritatis rem consequatur dolor et ipsa deserunt. Ad reprehenderit accusantium et corrupti illum quo voluptate debitis ut dolor molestiae. Et odit quasi non inventore quasi sed nobis architecto est eius amet. Ut ipsam Quis cum placeat voluptatem aut praesentium optio qui sint corporis et sint animi eum omnis placeat ut aperiam possimus <strong>métro Anvers (ligne 2), Abbesses (ligne 12) et Barbes-Rochechouart (ligne 4)</strong>. Et dolorem debitis aut provident quae quo neque veritatis rem consequatur dolor et ipsa deserunt. Ad reprehenderit accusantium et corrupti illum quo voluptate debitis ut dolor molestiae. Et odit quasi non inventore quasi sed nobis architecto est eius amet.
                     </p>
                     <p>
-                        L'appartement vient d'être refait à neuf et nouvellement inscrit sur <strong>AIRBNB</strong> .La cuisine, ouverte sur le salon, est entièrement équipée pour pouvoir cuisiner agréablement (frigidaire, grill, four, induction, casseroles, bouilloire, ustensiles,...)La chambre, où vous pourrez dormir dans un lit deux places (140X200) et vous réveiller avec une vue merveilleuse sur le ciel de Paris, donne accès à un second petit balcon privatif sur lequel il sera bon de boire votre thé ou votre café du matin.Le salon est équipé d'un canapé convertible en un lit d'appoint (140X190) pour accueillir si besoin une ou deux personnes supplémentaires.La petite salle de bain, fonctionnelle et claire, est équipée d'une douche et d'un WC.TV, lecteur DVD Blue Ray, connexion internet WIFI, aspirateur, penderie, fer à repasser,... sont à votre disposition pendant votre séjour et vous trouverez si besoin une laverie un peu plus loin dans la même rue.
+                        Lorem ipsum dolor sit amet. Non officiis repudiandae aut  <strong>AIRBNB</strong> .In esse minus vel modi enim sed totam ullam qui sapiente provident. Qui quod officia vel dolorum facilis cum mollitia distinctio et minus consequatur eum atque suscipit vel iure rerum et velit nisi! Eum impedit autem sed quam similique ex sunt laborum At doloremque sint id magni facilis. Et iusto sequi id voluptas voluptatibus sed maxime reiciendis. Cum rerum inventore aut dolorem esse et quia consequatur vel rerum internos vel eius facilis ex corrupti debitis ut soluta doloribus. Ut dolores tenetur est error sequi est aliquam quibusdam. Ut impedit aliquid sit alias expedita et commodi tenetur eos dolorem corrupti ex minima molestiae? Ut impedit facere et officiis quasi est nobis repellendus aut aliquid voluptas 33 perferendis facere ut repellendus nesciunt ut consectetur galisum. Eum exercitationem omnis ea recusandae beatae ut labore corporis quo aperiam nulla.
                     </p>
                     <p>
-                        Nous nous rendrons disponible si vous le souhaitez pour des conseils ou des bonnes adresses et faciliter votre séjour.Nous avons hâte de recevoir nos premiers voyageurs et recueillir leurs impressions !
+                        Non animi galisum et Quis quia ut facere labore aut placeat velit et voluptas sint? Qui odio deleniti qui velit galisum qui repudiandae eligendi. !
                     </p>
                 </div>
                 <div class="block-separator">

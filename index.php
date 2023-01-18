@@ -18,7 +18,7 @@ require_once "header.php";
                 <label>Départ</label>
                 <input type="date" name="end" value="2022-12-31" id="">
             </div>
-            <a href="contact.html" title="Réserver mon séjour">RESERVER</a>
+            <a href="contact.php" title="Réserver mon séjour">RESERVER</a>
         </div>
     </div>        
 </div>
@@ -29,14 +29,14 @@ require_once "header.php";
             <div class="flex-container">
                 <div class="flexbox-left-66">
                     <p>
-                        À quelques rues du <strong>Sacré-Cœur</strong>, ce quartier charmant est toujours vibrant. La <strong>Place du Tertre</strong> est l’une des plus visitées de Paris. Savourez-y le génie créatif des nombreux artistes qui exercent à Montmartre, c’est peut-être l’occasion de trouver un petit souvenir.
+                    At tempora vitae non optio architecto eos natus maiores aut vero Quis ut nesciunt impedit <strong>Sacré-Cœur</strong>. Vel eveniet omnis 33 dolores atque nam facere quas in ipsam adipisci et voluptates enim ut voluptatum autem et aliquid ullam! Eos minima libero quo galisum adipisci qui sunt quia aut provident sunt? Aut voluptatem repellat ea recusandae minima est illum autem.
                     </p>
                     <p>
-                        Petit appartement baigné de lumière,confortable et chaleureux,au 7ème et dernier étage avec un ascenseur,exposé plein sud,donnant sur une <strong>jolie terrasse</strong> qui domine tout Paris où vous pourrez prendre vos repas et vous détendre en admirant la ville et ses plus beaux monuments à toute heure du jour et de la nuit.Situé juste au pied du Sacré Coeur et du funiculaire qui permet de monter au sommet de la butte Montmartre,dans une petite rue...
+                    Est minima quasi ut aperiam similique sit doloremque voluptas hic alias dolores ut galisum officiis qui cumque itaque. Qui minima rerum ad neque molestiae non internos quod in dolores enim. Sit deleniti error est perferendis rerum eum ducimus incidunt ut unde facere..
                     </p>
                     <div class="flex-container">
-                        <a href="#" data-fancybox="gallerie" data-src="img/terrasse.webp" data-caption="Vue sur les toits de Paris">
-                            <img class="img-width-auto img-scale-anim" src="img/terrasse.webp" alt="Terrasse avec vue sur les toits">
+                        <a href="#" data-fancybox="gallerie" data-src="img/appart_2.jpg" data-caption="Vue sur les toits de Paris">
+                            <img class="img-width-auto img-scale-anim" src="img/appart_2.jpg" alt="Grand séjour lumineux">
                         </a>
                     </div>
                     <div class="flex-container">
@@ -120,16 +120,16 @@ require_once "header.php";
                     <h2>Actualités</h2>
                     <div class="news-container">
                         <a href="#">
-                            <img  src="img/Expo.jpg" alt="expo">
+                            <img  src="img/graffiti-1874452_1280.jpg" alt="expo">
                         </a>
-                        <h3>Exposition Dans les Bois</h3>
+                        <h3>Exposition Graffiti</h3>
                         <p class="img-description">
                             27 otobre 2022 - 19 décembre 2022
                         </p>
                     </div>
                     <div class="news-container">
                         <a  href="presentation.html" title="Présentation de l'appartement en location">
-                            <img src="img/sejour.webp" alt="le séjour">
+                            <img src="img/appart_3.jpg" alt="la chambre">
                         </a>
                         <h3>Découvrez votre logement</h3>
                         <p class="img-description">
