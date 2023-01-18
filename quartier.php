@@ -14,7 +14,7 @@ require_once "header.php";
                 <div class="flex-container">
                     <div class="main-description box_80">
                         <p >
-                            Ah, Montmartre… L’un des quartiers les plus mythiques de notre chère capitale. Partez sur les traces d’Amélie Poulain, mais aussi du vieux Montmartre des artistes, et ne passez surtout pas à côté des passages cachés loin des touristes…On démarre la balade à la sortie du <strong>métro Abbesses</strong>. Inaugurée en 1913 sur la <strong>ligne 12</strong>, cette station est reconnaissable à son grand édicule Guimard de couleur verte. Prenez la rue du même nom depuis la place des Abbesses pour commencer la visite…
+                        Lorem ipsum dolor sit amet. Et veniam numquam hic enim quos et blanditiis exercitationem est dolor voluptatem ut culpa eius ut perferendis adipisci. Est facere magni qui dolores nostrum ut enim culpa et animi numquam <strong>métro Abbesses</strong>. Inaugurée en 1913 sur la <strong>ligne 12</strong>. Cum saepe iusto qui earum aperiam hic nihil repellendus id possimus adipisci id Quis dolorum sed illo natus ut ipsum sunt! Sit repudiandae fuga et galisum libero ab praesentium sunt id exercitationem ratione. Aut dolorum corporis eum consequatur incidunt qui nemo dignissimos eum maxime eaque et totam quia...
                         </p>                 
                     </div>
                     <div>
@@ -27,7 +27,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">La place du Tertre</p>
                             <p>
-                                À quelques rues du Sacré-Cœur, ce quartier charmant est toujours vibrant. La Place du Tertre est l’une des plus visitées de Paris. Savourez-y le génie créatif des nombreux artistes qui exercent à Montmartre, c’est peut-être l’occasion de trouver un petit souvenir.
+                            Est neque consequatur eum porro repellendus ab deserunt voluptas aut ullam facere id quaerat deleniti non illo eaque ut ipsam soluta? Sit voluptatum maiores rem pariatur architecto aut eveniet vitae ex saepe enim non ducimus quod aut optio tempora aut accusamus soluta.
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8863565,2.3408201,3a,75y,348.89h,76.67t/data=!3m6!1e1!3m4!1s6dGKDjIr2BD5YOj1mx7rOg!2e0!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>
@@ -39,7 +39,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">La maison rose et la rue de l'Abreuvoir</p>
                             <p>
-                                C’est rue de l’Abreuvoir que l’on commence à pleinement mettre les pieds dans le Montmartre des artistes ! La Maison Rose est située au carrefour de la rue des Saules, de la rue Cortot et de la rue de l’Abreuvoir. Reconnaissable à sa façade rose pastel et ses lettrines vertes, elle fut peinte d’après le désir de Laure Gallo, amie d’artistes et modèle de Picasso, qui avait à coeur d’ouvrir un petit restaurant pour illustres proches.
+                                Lorem ipsum dolor sit amet. A vero labore qui impedit enim non tenetur porro in odio libero et reiciendis aliquid. Aut officia quisquam qui dolore voluptas qui earum ullam aut sapiente quidem ut ducimus maiores aut voluptatem quis non iure cupiditate? Id sunt unde ad obcaecati magnam qui enim enim et quia explicabo? Est quos commodi a fugit quisquam et officiis consectetur ut modi ducimus ut voluptatem rerum aut fuga inventore.
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8879529,2.3395787,3a,90y,351.31h,86.97t/data=!3m7!1e1!3m5!1sLWyYRbJOqG4iBp6-DEJtlQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DLWyYRbJOqG4iBp6-DEJtlQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D124.84797%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>
@@ -51,7 +51,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">Le moulin de la Galette</p>
                             <p>
-                                À l’angle du haut de la rue Lepic, immortalisé par Van Gogh en son temps, vous retrouverez le célèbre Moulin de la Galette, au 5 hameau des Artistes. Peint par par Renoir, Toulouse-Lautrec, Utrillo, aussi nommé moulin Radet, il est là depuis 1717 !
+                                Sit voluptatum maiores rem pariatur architecto aut eveniet vitae ex saepe enim non ducimus quod aut optio tempora aut accusamus soluta. Ea itaque totam et dolorem expedita a voluptates aliquid sit dolorum veniam est deserunt perferendis aut accusamus libero ut odio cupiditate. 
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8872741,2.3372002,3a,90y,330.24h,90.32t/data=!3m7!1e1!3m5!1sOe9kAvj8-0RxJRkm_uZxWQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DOe9kAvj8-0RxJRkm_uZxWQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D38.61144%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>
@@ -63,7 +63,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">Le Square Louise Michel, ou les marches du Sacré Coeur</p>
                             <p>
-                                Peu de square sont aussi peu souvent appelés par leur nom à Paris : le Square Louise Michel s’avère pourtant l’un des plus passants de tout le 18e arrondissement, lui qui est traversé par les marches menant au Parvis du Sacré Coeur ! 
+                                Quo rerum fuga aut quidem delectus in dolorum nobis. Vel fugit delectus eos mollitia autem et neque deserunt aut magni iure id magni odio et ullam tempore in maiores laboriosam. Vel nihil accusamus ut voluptatibus repellat qui voluptates iste est quia magni! 
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8859113,2.3431986,3a,75y,174.2h,84.52t/data=!3m6!1e1!3m4!1si1Z_WgEgtvj35uvSg2Hjag!2e0!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>
@@ -75,7 +75,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">Chez Michou, la légende de la fête à Montmartre</p>
                             <p>
-                                Depuis plus de 60 ans, le cabaret Chez Michou règne sur les nuits de Montmartre. On doit ce dîner-spectacle transformiste célèbre dans toute la France à son créateur et grande figure montmartroise, Michou, dont l’âme festive plane toujours sur la Rue des Martyrs. 
+                                Non nemo tenetur qui nostrum veritatis eum quibusdam officia et inventore reiciendis eos impedit dolores! Et mollitia optio eos nostrum vitae et consequatur fuga. Et autem dolore qui voluptatem dolores non enim voluptatem et dolor saepe. Cum voluptas officiis rem quas amet cum dignissimos fuga in minus ducimus est voluptatem neque est molestiae eius et quaerat dolor. Ut cupiditate fuga est nostrum ducimus aut asperiores nihil!
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8828705,2.3396838,3a,75y,54.99h,84.65t/data=!3m6!1e1!3m4!1sHguJmRNIG5XFwC42tBFTYQ!2e0!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>
@@ -87,7 +87,7 @@ require_once "header.php";
                         <div class="flex-container-col">
                             <p class="article-title">Le Moulin Rouge</p>
                             <p>
-                                Symbole parmi les symboles parisiens, le Moulin Rouge continue, 130 ans après son ouverture, d’attirer une foule de Parisiens et de touristes. Le célèbre cabaret fait également partie des monuments les plus photographiés de Paris et sa silhouette est connue de tous.  
+                                Cum saepe iusto qui earum aperiam hic nihil repellendus id possimus adipisci id Quis dolorum sed illo natus ut ipsum sunt! Sit repudiandae fuga et galisum libero ab praesentium sunt id exercitationem ratione. Aut dolorum corporis eum consequatur incidunt qui nemo dignissimos eum maxime eaque et totam quia. Eum blanditiis accusantium qui quia aperiam qui repellendus voluptatum! 
                             </p>
                         </div>
                         <a href="https://www.google.fr/maps/@48.8840289,2.3322407,3a,75y,52.89h,90.55t/data=!3m6!1e1!3m4!1swUEYAtixODwgYgBhOTTcqg!2e0!7i16384!8i8192?hl=fr" target="_blank" title="Visite virtuelle avec Google Maps">Visite virtuelle</a>

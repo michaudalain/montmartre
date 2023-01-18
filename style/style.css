@@ -82,16 +82,11 @@ html, body {
 
 body {
     font-family: 'Open Sans';
-    background-image: url("../img/PlaceTertre.jpg");
+    background-image: url("../img/paris-674958_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: #384454;
-}
-
-.body-quartier{
-    background-image: url("../img/Sacré-Coeur-sur-la-Butte-Montmartre-Paris-2013-301-1.jpg");
-    background-position-y: 70%;
 }
 
 img {
@@ -517,7 +512,7 @@ aside h2 {
 
 .flex-container-wd60 {
     display: flex;
-    width: 60%;
+    width: 57%;
 }
 
 .flex-container-col-wd20 {
